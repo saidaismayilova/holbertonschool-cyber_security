@@ -1,2 +1,2 @@
 #!/bin/bash
-sha256sum -c <(echo "$2  $1") &>/dev/null && echo ok || echo invalid
+[ "$1" ] && [ -f "$1" ] && echo "$(sha256sum "$1")" || echo "Usage: $0 <file>"
