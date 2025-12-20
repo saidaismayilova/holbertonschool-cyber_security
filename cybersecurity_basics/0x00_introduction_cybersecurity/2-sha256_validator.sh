@@ -1,2 +1,2 @@
 #!/bin/bash
-[ "$1" ] && [ -f "$1" ] && echo "$(sha256sum "$1")" || echo "Usage: $0 <file>"
+[ -f "$1" ] && sha256sum "$1" || echo "File not found"
