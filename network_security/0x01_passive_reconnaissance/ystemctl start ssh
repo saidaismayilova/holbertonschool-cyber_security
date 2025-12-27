@@ -1,0 +1,141 @@
+[0;1;32m●[0m saida
+    State: [0;1;32mrunning[0m
+    Units: 298 loaded (incl. loaded aliases)
+     Jobs: 0 queued
+   Failed: 0 units
+    Since: Sat 2025-12-27 16:02:05 EST; 53min ago
+  systemd: 259~rc3-1
+  Tainted: [0;1;38:5:185munmerged-bin[0m
+   CGroup: /
+           ├─init.scope
+           │ └─[0;38;5;245m1 /sbin/init splash[0m
+           ├─system.slice
+           │ ├─ModemManager.service
+           │ │ └─[0;38;5;245m635 /usr/sbin/ModemManager[0m
+           │ ├─NetworkManager.service
+           │ │ └─[0;38;5;245m583 /usr/sbin/NetworkManager --no-daemon[0m
+           │ ├─accounts-daemon.service
+           │ │ └─[0;38;5;245m489 /usr/libexec/accounts-daemon[0m
+           │ ├─colord.service
+           │ │ └─[0;38;5;245m1278 /usr/libexec/colord[0m
+           │ ├─cron.service
+           │ │ └─[0;38;5;245m614 /usr/sbin/cron -f[0m
+           │ ├─dbus.service
+           │ │ └─[0;38;5;245m491 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only[0m
+           │ ├─haveged.service
+           │ │ └─[0;38;5;245m474 /usr/sbin/haveged --Foreground --verbose=1[0m
+           │ ├─lightdm.service
+           │ │ ├─[0;38;5;245m765 /usr/sbin/lightdm[0m
+           │ │ └─[0;38;5;245m776 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch[0m
+           │ ├─polkit.service
+           │ │ └─[0;38;5;245m510 /usr/lib/polkit-1/polkitd --no-debug --log-level=notice[0m
+           │ ├─rtkit-daemon.service
+           │ │ └─[0;38;5;245m827 /usr/libexec/rtkit-daemon[0m
+           │ ├─system-getty.slice
+           │ │ └─getty@tty1.service
+           │ │   └─[0;38;5;245m777 /usr/sbin/agetty --noreset --noclear --issue-file=/etc/issue:/etc/issue.d:/run/issue.d:/usr/lib/issue.d - linux[0m
+           │ ├─systemd-journald.service
+           │ │ └─[0;38;5;245m335 /usr/lib/systemd/systemd-journald[0m
+           │ ├─systemd-logind.service
+           │ │ └─[0;38;5;245m519 /usr/lib/systemd/systemd-logind[0m
+           │ ├─systemd-udevd.service
+           │ │ └─udev
+           │ │   └─[0;38;5;245m375 /usr/lib/systemd/systemd-udevd[0m
+           │ ├─udisks2.service
+           │ │ └─[0;38;5;245m1299 /usr/libexec/udisks2/udisksd[0m
+           │ ├─upower.service
+           │ │ └─[0;38;5;245m1224 /usr/libexec/upowerd[0m
+           │ └─virtualbox-guest-utils.service
+           │   ├─[0;38;5;245m643 /usr/bin/VBoxDRMClient[0m
+           │   └─[0;38;5;245m650 /usr/sbin/VBoxService[0m
+           └─user.slice
+             └─user-0.slice
+               ├─session-2.scope
+               │ ├─[0;38;5;245m 902 lightdm --session-child 13 24[0m
+               │ ├─[0;38;5;245m 968 xfce4-session[0m
+               │ ├─[0;38;5;245m1034 /usr/bin/VBoxClient --clipboard[0m
+               │ ├─[0;38;5;245m1036 /usr/bin/VBoxClient --clipboard[0m
+               │ ├─[0;38;5;245m1043 /usr/bin/VBoxClient --seamless[0m
+               │ ├─[0;38;5;245m1045 /usr/bin/VBoxClient --seamless[0m
+               │ ├─[0;38;5;245m1052 /usr/bin/VBoxClient --draganddrop[0m
+               │ ├─[0;38;5;245m1054 /usr/bin/VBoxClient --draganddrop[0m
+               │ ├─[0;38;5;245m1070 /usr/bin/VBoxClient --vmsvga-session[0m
+               │ ├─[0;38;5;245m1072 /usr/bin/VBoxClient --vmsvga-session[0m
+               │ ├─[0;38;5;245m1113 /usr/bin/ssh-agent -s[0m
+               │ ├─[0;38;5;245m1125 xfwm4 --display :0.0 --sm-client-id 29de2245e-1c17-4974-bcf7-b6d4e470f33b[0m
+               │ ├─[0;38;5;245m1153 xfsettingsd --display :0.0 --sm-client-id 2a16bddb4-0044-44f9-8a2a-cdbc98c16fc5[0m
+               │ ├─[0;38;5;245m1163 xfce4-panel --display :0.0 --sm-client-id 2101dd303-a541-43fa-bc8b-60958ba1ab2e[0m
+               │ ├─[0;38;5;245m1169 Thunar --sm-client-id 25a0afec1-bb29-4f77-864c-b328003315de --daemon[0m
+               │ ├─[0;38;5;245m1176 xfdesktop --display :0.0 --sm-client-id 21a8f6381-e455-487f-95c3-bc6227abd312[0m
+               │ ├─[0;38;5;245m1181 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 1 25165831 whiskermenu "Whisker Menu" "Show a menu to easily access installed applications"[0m
+               │ ├─[0;38;5;245m1186 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libcpugraph.so 13 25165836 cpugraph "CPU Graph" "Graphical representation of the CPU load"[0m
+               │ ├─[0;38;5;245m1187 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libsystray.so 14 25165837 systray "Status Tray Plugin" "Provides status notifier items (application indicators) and legacy systray items"[0m
+               │ ├─[0;38;5;245m1188 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libgenmon.so 15 25165838 genmon "Generic Monitor" "Show output of a command."[0m
+               │ ├─[0;38;5;245m1189 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.so 16 25165839 pulseaudio "PulseAudio Plugin" "Adjust the audio volume of the PulseAudio sound system"[0m
+               │ ├─[0;38;5;245m1192 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libnotification-plugin.so 17 25165840 notification-plugin "Notification Plugin" "Notification plugin for the Xfce panel"[0m
+               │ ├─[0;38;5;245m1195 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.so 18 25165841 power-manager-plugin "Power Manager Plugin" "Display the battery levels of your devices and control the brightness of your display"[0m
+               │ ├─[0;38;5;245m1202 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libactions.so 22 25165842 actions "Action Buttons" "Log out, lock or other system actions"[0m
+               │ ├─[0;38;5;245m1225 /usr/bin/qterminal -session 20035ba26-61fb-419d-ad06-33f7097190f3_1732627509_524572[0m
+               │ ├─[0;38;5;245m1226 xfce4-power-manager --restart --sm-client-id 23e6a90b5-8a9e-4e27-a87e-fea220deddc1[0m
+               │ ├─[0;38;5;245m1261 xiccd[0m
+               │ ├─[0;38;5;245m1265 /usr/libexec/geoclue-2.0/demos/agent[0m
+               │ ├─[0;38;5;245m1267 /usr/bin/python3 /usr/bin/blueman-applet[0m
+               │ ├─[0;38;5;245m1280 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1[0m
+               │ ├─[0;38;5;245m1282 xfce4-screensaver[0m
+               │ ├─[0;38;5;245m1286 /usr/bin/python3 /usr/share/system-config-printer/applet.py[0m
+               │ ├─[0;38;5;245m1287 xcape -e Super_L Control_L Escape[0m
+               │ ├─[0;38;5;245m1294 nm-applet[0m
+               │ ├─[0;38;5;245m1315 light-locker[0m
+               │ ├─[0;38;5;245m1380 /usr/bin/zsh[0m
+               │ ├─[0;38;5;245m1809 /usr/bin/qterminal[0m
+               │ ├─[0;38;5;245m1816 /usr/bin/zsh[0m
+               │ ├─[0;38;5;245m1952 thunar-volman --device-added /sys/devices/pci0000:00/0000:00:01.1/ata2/host1/target1:0:0/1:0:0:0/block/sr0[0m
+               │ ├─[0;38;5;245m2394 openvpn vpn.ovpn[0m
+               │ ├─[0;38;5;245m2743 systemctl status[0m
+               │ └─[0;38;5;245m2744 pager[0m
+               └─user@0.service
+                 ├─app.slice
+                 │ ├─dconf.service
+                 │ │ └─[0;38;5;245m1159 /usr/libexec/dconf-service[0m
+                 │ ├─gnome-keyring-daemon.service
+                 │ │ └─[0;38;5;245m957 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/0/keyring[0m
+                 │ ├─gpg-agent.service
+                 │ │ └─[0;38;5;245m1122 /usr/bin/gpg-agent --supervised[0m
+                 │ ├─obex.service
+                 │ │ └─[0;38;5;245m1467 /usr/libexec/bluetooth/obexd[0m
+                 │ └─xfce4-notifyd.service
+                 │   └─[0;38;5;245m1223 /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd[0m
+                 ├─init.scope
+                 │ ├─[0;38;5;245m928 /usr/lib/systemd/systemd --user[0m
+                 │ └─[0;38;5;245m931 "(sd-pam)"[0m
+                 └─session.slice
+                   ├─at-spi-dbus-bus.service
+                   │ ├─[0;38;5;245m1088 /usr/libexec/at-spi-bus-launcher[0m
+                   │ ├─[0;38;5;245m1095 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 13 --address=unix:path=/run/user/0/at-spi/bus_0[0m
+                   │ └─[0;38;5;245m1105 /usr/libexec/at-spi2-registryd --use-gnome-session[0m
+                   ├─dbus.service
+                   │ └─[0;38;5;245m961 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only[0m
+                   ├─filter-chain.service
+                   │ └─[0;38;5;245m955 /usr/bin/pipewire -c filter-chain.conf[0m
+                   ├─gvfs-afc-volume-monitor.service
+                   │ └─[0;38;5;245m1393 /usr/libexec/gvfs-afc-volume-monitor[0m
+                   ├─gvfs-daemon.service
+                   │ ├─[0;38;5;245m1130 /usr/libexec/gvfsd[0m
+                   │ ├─[0;38;5;245m1136 /usr/libexec/gvfsd-fuse /run/user/0/gvfs -f[0m
+                   │ └─[0;38;5;245m1449 /usr/libexec/gvfsd-trash --spawner :1.18 /org/gtk/gvfs/exec_spaw/0[0m
+                   ├─gvfs-goa-volume-monitor.service
+                   │ └─[0;38;5;245m1414 /usr/libexec/gvfs-goa-volume-monitor[0m
+                   ├─gvfs-gphoto2-volume-monitor.service
+                   │ └─[0;38;5;245m1424 /usr/libexec/gvfs-gphoto2-volume-monitor[0m
+                   ├─gvfs-metadata.service
+                   │ └─[0;38;5;245m1461 /usr/libexec/gvfsd-metadata[0m
+                   ├─gvfs-mtp-volume-monitor.service
+                   │ └─[0;38;5;245m1419 /usr/libexec/gvfs-mtp-volume-monitor[0m
+                   ├─gvfs-udisks2-volume-monitor.service
+                   │ └─[0;38;5;245m1283 /usr/libexec/gvfs-udisks2-volume-monitor[0m
+                   ├─pipewire-pulse.service
+                   │ └─[0;38;5;245m956 /usr/bin/pipewire-pulse[0m
+                   ├─pipewire.service
+                   │ └─[0;38;5;245m953 /usr/bin/pipewire[0m
+                   └─wireplumber.service
+                     └─[0;38;5;245m954 /usr/bin/wireplumber[0m
