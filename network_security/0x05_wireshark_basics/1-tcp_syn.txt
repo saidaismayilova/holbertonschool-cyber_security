@@ -1,1 +1,1 @@
-tcp.flags.syn == 1 and tcp.flags.ack == 0 and tcp.window_size <= 1024
+printf "tcp.flags.syn == 1 and tcp.flags.ack == 0 and tcp.window_size <= 1024\n\n" > 1-tcp_syn.txt
