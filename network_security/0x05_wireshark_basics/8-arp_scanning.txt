@@ -1,1 +1,1 @@
-arp.dst.hw_mac
+printf "arp.dst.hw_mac == ff:ff:ff:ff:ff:ff\n\n" > 8-arp_scanning.txt
