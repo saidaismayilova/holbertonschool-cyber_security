@@ -1,1 +1,1 @@
-icmp && (icmp.type == 8 || icmp.type == 0)
+printf "icmp.type == 8 and icmp.code == 0\n\n" > 7-icmp_ping_sweep.txt
