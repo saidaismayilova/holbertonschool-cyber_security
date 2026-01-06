@@ -1,1 +1,1 @@
-udp || (icmp && icmp.type == 3)
+udp.dstport
