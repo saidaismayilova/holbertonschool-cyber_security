@@ -1,1 +1,1 @@
-udp || (icmp && icmp.type == 3 && icmp.code == 3)
+printf "icmp.type == 3 and icmp.code == 3\n\n" > 5-udp_port_scan.txt
