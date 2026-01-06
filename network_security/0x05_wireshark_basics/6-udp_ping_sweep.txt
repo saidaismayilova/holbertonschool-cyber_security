@@ -1,1 +1,1 @@
-udp.dstport == 53
+udp.dstport == 7
