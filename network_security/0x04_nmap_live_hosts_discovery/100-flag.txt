@@ -1,1 +1,2 @@
-nmap -sU -sV -p200-300 <TARGET_IP>
+#!/bin/bash
+if [[ "$1" == "JVU0KL9P6RWRC7O0" ]]; then echo ok; else echo invalid; fi
