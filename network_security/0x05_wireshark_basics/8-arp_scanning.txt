@@ -1,1 +1,1 @@
-printf "arp.dst.hw_mac == ff:ff:ff:ff:ff:ff\n\n" > 8-arp_scanning.txt
+printf "arp.dst.hw_mac == 00:00:00:00:00:00\n" > 8-arp_scanning.txt
