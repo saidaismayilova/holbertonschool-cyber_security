@@ -1,2 +1,2 @@
 #!/bin/bash
-aa_status
+apparmor_status
