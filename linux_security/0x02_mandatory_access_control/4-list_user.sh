@@ -1,2 +1,2 @@
 #!/bin/bash
-semanage user -l
+semanage login -l | semanage user -l
