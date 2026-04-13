@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -i "ufw" auth.log | grep -E "allow|deny" | sort -u | wc -l
+grep "ufw" auth.log | grep -E "allow|deny" | sed 's/.*COMMAND=//' | sort -u | wc -l
