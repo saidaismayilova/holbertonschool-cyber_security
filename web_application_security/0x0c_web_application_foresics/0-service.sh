@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -i "sshd" auth.log | wc -l
+grep -oP 'pam_unix\(\K[^:]+' auth.log | sort | uniq -c | sort -nr
