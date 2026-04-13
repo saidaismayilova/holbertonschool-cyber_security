@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -i "sshd" logs.txt | wc -l
+grep -i "sshd" auth.log | wc -l
