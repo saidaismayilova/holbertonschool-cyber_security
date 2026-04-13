@@ -1,2 +1,2 @@
-#!bin/bash
-Ubuntu 2.6.24-26-server
+#!/bin/bash
+grep "Linux version" dmesg
