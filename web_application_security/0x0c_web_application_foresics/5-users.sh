@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -d: -f1 /etc/passwd | paste -sd,
+grep 'useradd' auth.log | awk -F 'name=' '{print $2}' | awk '{print $1}' | tr -d ',' | sort -u | paste -sd ',' -

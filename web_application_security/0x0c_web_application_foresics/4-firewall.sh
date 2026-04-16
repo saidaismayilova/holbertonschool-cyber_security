@@ -1,2 +1,2 @@
 #!/bin/bash
-grep "ufw" auth.log | grep -E "allow|deny" | sed 's/.*COMMAND=//' | sort -u | wc -l
+grep -Ei "iptables|ufw|nft|firewall" auth.log* | grep -Ei "add|append|-A|insert" | wc -l
